@@ -1,0 +1,8 @@
+.anti-spam-chat-info-container{
+  background: #b2eaff;
+  height: 50px;
+  width: 100%;
+  display: block;
+  padding: .5rem;
+  cursor: pointer;
+}

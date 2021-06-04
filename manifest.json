@@ -1,0 +1,24 @@
+{
+  "name": "Twitch Chat Spamless",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Removes mindless/immature/no value comments from twitch chat...",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "content_scripts/twitch-chat-anti-spam.js"
+      ],
+      "css": [
+        "content_scripts/twitch-chat-anti-spam.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
